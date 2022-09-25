@@ -1,4 +1,4 @@
-package edu.hackrice.lifehackstartercode;
+package edu.hackrice.pogo;
 
 import org.junit.Test;
 

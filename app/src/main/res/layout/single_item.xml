@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <ImageView
+            android:id="@+id/pokemonImage"
+            android:layout_width="136dp"
+            android:layout_height="128dp"
+            app:srcCompat="@drawable/bulbasaur" />
+
+        <TextView
+            android:id="@+id/pokedexID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="#001" />
+
+        <TextView
+            android:id="@+id/pokemonName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Bulbasaur" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/Type1"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:background="#00FF00"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Grass" />
+
+        <TextView
+            android:id="@+id/Type2"
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:background="#BF40BF"
+            android:gravity="center"
+            android:text="Poison"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
